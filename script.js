@@ -103,7 +103,6 @@ const itemFileRenameMap = {
   "assets/minecraft/textures/item/wooden_hoe.png": "wood_hoe.png",
   "assets/minecraft/textures/item/wooden_shovel.png": "wood_shovel.png",
   "assets/minecraft/textures/item/wooden_pickaxe.png": "wood_pickaxe.png",
-  
 };
 
 const blockFileRenameMap = {
