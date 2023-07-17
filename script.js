@@ -98,6 +98,12 @@ const itemFileRenameMap = {
   "assets/minecraft/textures/item/music_disc_stard.png": "record_stal.png",
   "assets/minecraft/textures/item/music_disc_wait.png": "record_stard.png",
   "assets/minecraft/textures/item/music_disc_ward.png": "record_wait.png",
+  "assets/minecraft/textures/block/wooden_sword.png": "wood_sword.png",
+  "assets/minecraft/textures/block/wooden_axe.png": "wood_axe.png",
+  "assets/minecraft/textures/block/wooden_hoe.png": "wood_hoe.png",
+  "assets/minecraft/textures/block/wooden_shovel.png": "wood_shovel.png",
+  "assets/minecraft/textures/block/wooden_pickaxe.png": "wood_pickaxe.png",
+  
 };
 
 const blockFileRenameMap = {
@@ -338,11 +344,6 @@ const blockFileRenameMap = {
 "assets/minecraft/textures/block/peony_top.png": "double_plant_paeonia.png",
 "assets/minecraft/textures/block/rose_bush_bottom.png": "double_plant_rose_bottom.png",
 "assets/minecraft/textures/block/rose_bush_top.png": "double_plant.png",
-"assets/minecraft/textures/block/wooden_sword.png": "wood_sword.png",
-"assets/minecraft/textures/block/wooden_axe.png": "wood_axe.png",
-"assets/minecraft/textures/block/wooden_hoe.png": "wood_hoe.png",
-"assets/minecraft/textures/block/wooden_shovel.png": "wood_shovel.png",
-"assets/minecraft/textures/block/wooden_pickaxe.png": "wood_pickaxe.png",
 };
 
 let selectedFile = null;
