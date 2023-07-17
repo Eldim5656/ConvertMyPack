@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConvertMyPack</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" onclick="openFileExplorer()">
+    <h1>Drop your pack here or click to select a file</h1>
+  </div>
+
+  <button onclick="duplicateAndDownload()" id="downloadButton">Download</button>
+
+  <input type="file" id="fileInput" style="display: none">
+
+  <script src="jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

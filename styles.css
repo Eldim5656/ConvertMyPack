@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #111;
+  color: #ddd;
+  font-family: 'Arial', sans-serif;
+}
+  
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60vh;
+  background-color: #333;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  border: 2px solid #c2c2c2;
+  cursor:  pointer;
+}
+  
+.container:hover,
+.container.drag-over {
+  /* Add styles for the container when dragging a file over it */
+  border: 2px solid #8aff8a;
+  transform: translate(-50%, -50%) scale(1.01);
+}
+  
+.container h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #c2c2c2;
+}
+
+#downloadButton {
+  position: absolute;
+  top: calc(50% + 33vh); /* Adjust the value (33vh) to move the button higher */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #c2c2c2;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#downloadButton:hover {
+  border: 2px solid #8aff8a;
+  cursor: pointer;
+
+}
